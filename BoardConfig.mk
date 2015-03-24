@@ -41,6 +41,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+DEVICE_RESOLUTION := 720x1280
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
