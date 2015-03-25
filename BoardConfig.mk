@@ -42,7 +42,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 DEVICE_RESOLUTION := 720x1280
-TW_NO_SCREEN_TIMEOUT := true
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
