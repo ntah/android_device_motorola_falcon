@@ -40,7 +40,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930614784
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
 DEVICE_RESOLUTION := 720x1280
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_IGNORE_MAJOR_AXIS_0 := true
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_SCREEN_BLANK := true
+BOARD_HAS_NO_REAL_SDCARD := true
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
