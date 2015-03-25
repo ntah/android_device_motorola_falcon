@@ -38,10 +38,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5930614784
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
 DEVICE_RESOLUTION := 720x1280
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
+TW_IGNORE_MAJOR_AXIS_0 := true
 
 # inherit from the proprietary version
 -include vendor/motorola/falcon/BoardConfigVendor.mk
